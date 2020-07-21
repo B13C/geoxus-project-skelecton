@@ -11,6 +11,13 @@
 
     <artifactId>geoxus-core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+    </dependencies>
+
     <build>
         <finalName>geoxus-core</finalName>
         <plugins>
